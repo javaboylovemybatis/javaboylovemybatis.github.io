@@ -34,6 +34,8 @@ header:
       zh-Hans : &ZH_HANS  更多教程
     url: http://www.javaboy.org
 docs-zh:
+  - title:      MyBatis 入门
+    children:
       - title:  1. MyBatis 简介
         url:    http://mybatis.javaboy.org/2019/1101/mybatis-info
       - title:  2. HelloWorld
@@ -44,28 +46,30 @@ docs-zh:
         url:    http://mybatis.javaboy.org/2019/1104/architecture
       - title:  5. 引入 Mapper
         url:    http://mybatis.javaboy.org/2019/1105/mapper
-      - title:  6. 全局配置
-        children:
-          - title: 6.1 properties
-            url: http://mybatis.javaboy.org/2019/1107/properties
-          - title: 6.2 settings
-            url: http://mybatis.javaboy.org/2019/1108/settings
-          - title: 6.3 typeAliases
-            url: http://mybatis.javaboy.org/2019/1109/typealias
-          - title: 6.4 typeHandlers
-            url: http://mybatis.javaboy.org/2019/1110/typehandlers
-          - title: 6.5 Mapper
-            url: http://mybatis.javaboy.org/2019/1111/mapper
-      - title:  7. Mapper 映射文件
-        children:
-          - title: 7.1 parameterType
-            url: http://mybatis.javaboy.org/2019/1113/parametertype
-          - title: 7.2 resultType
-            url: http://mybatis.javaboy.org/2019/1114/resulttype
-          - title: 7.3 resultMap
-            url: http://mybatis.javaboy.org/2019/1115/resultmap
-          - title: 7.4 动态 SQL
-            url: http://mybatis.javaboy.org/2019/1116/sql
+  - title:  全局配置
+    children:
+      - title: 6.1 properties
+        url: http://mybatis.javaboy.org/2019/1107/properties
+      - title: 6.2 settings
+        url: http://mybatis.javaboy.org/2019/1108/settings
+      - title: 6.3 typeAliases
+        url: http://mybatis.javaboy.org/2019/1109/typealias
+      - title: 6.4 typeHandlers
+        url: http://mybatis.javaboy.org/2019/1110/typehandlers
+      - title: 6.5 Mapper
+        url: http://mybatis.javaboy.org/2019/1111/mapper
+  - title:  Mapper 映射文件
+    children:
+      - title: 7.1 parameterType
+        url: http://mybatis.javaboy.org/2019/1113/parametertype
+      - title: 7.2 resultType
+        url: http://mybatis.javaboy.org/2019/1114/resulttype
+      - title: 7.3 resultMap
+        url: http://mybatis.javaboy.org/2019/1115/resultmap
+      - title: 7.4 动态 SQL
+        url: http://mybatis.javaboy.org/2019/1116/sql
+  - title: 查询进阶
+    children:
       - title:  8. 一对一查询
         url:    http://mybatis.javaboy.org/2019/1117/one-to-one
       - title:  9. 一对多查询
@@ -74,5 +78,7 @@ docs-zh:
         url:    http://mybatis.javaboy.org/2019/1119/cache
       - title:  11. 逆向工程
         url:    http://mybatis.javaboy.org/2019/1120/generator
+  - title: 其他
+    children:
       - title:  下载电子档
         url:    http://mybatis.javaboy.org/2019/1121/download

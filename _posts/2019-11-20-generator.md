@@ -1,7 +1,7 @@
 ---
 sidebar:
   nav: docs-zh
-title: ## 11. 逆向工程
+title: 11. 逆向工程
 tags: MyBatis
 categories: MyBatis
 abbrlink: generator
